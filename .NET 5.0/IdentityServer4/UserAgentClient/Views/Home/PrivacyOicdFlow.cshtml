@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Privacy Oicd Flow";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<button onclick="signOut()">signOut</button>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/oidc-client/1.11.6-beta.1/oidc-client.min.js"></script>
+<script>
+    var userManager = new Oidc.UserManager({
+        userStore: new Oidc.WebStorageStateStore({store: window.localStorage}),
+        response_mode: "query",
+    });
+
+    userManager.signinCallback().then(res =>
+        {
+            console.log("Privacy Oicd Flow: ", res);
+            //window.location.href = "/home/index";
+        });
+
+</script>

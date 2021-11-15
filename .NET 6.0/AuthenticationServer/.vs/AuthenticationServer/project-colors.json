@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "103c93ba-11d2-484a-96d2-3177f0b37bfb": {
+      "ProjectGuid": "103c93ba-11d2-484a-96d2-3177f0b37bfb",
+      "DisplayName": "AuthenticationServer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

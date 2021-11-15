@@ -1,0 +1,12 @@
+﻿dotnet ef migrations add InitialIdentityServerPersistedGrantDbMigration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb
+dotnet ef migrations add InitialIdentityServerConfigurationDbMigration -c ConfigurationDbContext -o Data/Migrations/IdentityServer/ConfigurationDb
+
+dotnet ef database update -c AuthDbContext
+dotnet ef database update -c PersistedGrantDbContext
+dotnet ef database update -c ConfigurationDbContext
+
+
+
+Certificate 
+https://www.youtube.com/watch?v=gnUM3cB3_co&list=PLOeFnOV9YBa7dnrjpOG6lMpcyd7Wn7E8V&index=20
+

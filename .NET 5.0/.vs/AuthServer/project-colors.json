@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bcc9ef3a-6e94-4c27-bdfc-283c8c214e74": {
+      "ProjectGuid": "bcc9ef3a-6e94-4c27-bdfc-283c8c214e74",
+      "DisplayName": "AuthServer",
+      "ColorIndex": 0
+    },
+    "812b1707-3c5d-4482-a1bc-a4c2051e6c7e": {
+      "ProjectGuid": "812b1707-3c5d-4482-a1bc-a4c2051e6c7e",
+      "DisplayName": "EmailService",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "781942f7-6ccb-40d2-aaa2-29772dc30f09": {
+      "ProjectGuid": "781942f7-6ccb-40d2-aaa2-29772dc30f09",
+      "DisplayName": "TokenService",
+      "ColorIndex": 2
+    },
+    "13396a14-7f46-4d27-a064-388a564223ed": {
+      "ProjectGuid": "13396a14-7f46-4d27-a064-388a564223ed",
+      "DisplayName": "SportDataAuth.Shared",
+      "ColorIndex": 3
+    },
+    "e3f8e00d-6ee6-4f7f-9577-74b0ec332416": {
+      "ProjectGuid": "e3f8e00d-6ee6-4f7f-9577-74b0ec332416",
+      "DisplayName": "TokenService",
+      "ColorIndex": 4
+    },
+    "f73126ba-e62e-4581-9a1d-8b76b94e8dc8": {
+      "ProjectGuid": "f73126ba-e62e-4581-9a1d-8b76b94e8dc8",
+      "DisplayName": "DataValidation",
+      "ColorIndex": 5
+    },
+    "557f858f-fa04-40c0-801f-81c9c9beb30b": {
+      "ProjectGuid": "557f858f-fa04-40c0-801f-81c9c9beb30b",
+      "DisplayName": "AuthenticationServer",
+      "ColorIndex": 6
+    },
+    "bc540926-705b-4d01-9193-34c9a360eb41": {
+      "ProjectGuid": "bc540926-705b-4d01-9193-34c9a360eb41",
+      "DisplayName": "AuthenticationServer",
+      "ColorIndex": 7
+    },
+    "12189c83-02fc-46ec-aa1a-6fc6bb45b941": {
+      "ProjectGuid": "12189c83-02fc-46ec-aa1a-6fc6bb45b941",
+      "DisplayName": "AuthenticationServer",
+      "ColorIndex": 8
+    },
+    "16421f52-8583-4810-9344-c593f5acd59a": {
+      "ProjectGuid": "16421f52-8583-4810-9344-c593f5acd59a",
+      "DisplayName": "AuthenticationServer",
+      "ColorIndex": 9
+    },
+    "fcc8de62-8d88-4e36-b91d-da9ff431a8e8": {
+      "ProjectGuid": "fcc8de62-8d88-4e36-b91d-da9ff431a8e8",
+      "DisplayName": "ApiOne",
+      "ColorIndex": 10
+    },
+    "48716296-d305-4664-bbca-fb6f1f37a160": {
+      "ProjectGuid": "48716296-d305-4664-bbca-fb6f1f37a160",
+      "DisplayName": "ApiOne",
+      "ColorIndex": 11
+    },
+    "9e44ee7b-e3fa-466d-a4d2-ebe46c62c7d9": {
+      "ProjectGuid": "9e44ee7b-e3fa-466d-a4d2-ebe46c62c7d9",
+      "DisplayName": "ApiTwoClient",
+      "ColorIndex": 12
+    },
+    "03ff5120-dc8d-4b7f-87ae-d028057fa1be": {
+      "ProjectGuid": "03ff5120-dc8d-4b7f-87ae-d028057fa1be",
+      "DisplayName": "ApiOne",
+      "ColorIndex": 13
+    },
+    "9e45c2bb-e965-4fa9-bba6-b2ab3b25a6d9": {
+      "ProjectGuid": "9e45c2bb-e965-4fa9-bba6-b2ab3b25a6d9",
+      "DisplayName": "MvcClient",
+      "ColorIndex": 14
+    },
+    "5311e581-b594-4287-954b-ec32468ceff2": {
+      "ProjectGuid": "5311e581-b594-4287-954b-ec32468ceff2",
+      "DisplayName": "MvcClient",
+      "ColorIndex": 15
+    },
+    "2b38a8f0-467a-42a0-bdcf-a61605a3ed5d": {
+      "ProjectGuid": "2b38a8f0-467a-42a0-bdcf-a61605a3ed5d",
+      "DisplayName": "MvcClient",
+      "ColorIndex": 0
+    },
+    "de8a6987-ced9-41e7-9e95-7f5b0a888f64": {
+      "ProjectGuid": "de8a6987-ced9-41e7-9e95-7f5b0a888f64",
+      "DisplayName": "UserAgentClient",
+      "ColorIndex": 1
+    },
+    "919fd655-f067-4ba2-b932-d926e85dd6b4": {
+      "ProjectGuid": "919fd655-f067-4ba2-b932-d926e85dd6b4",
+      "DisplayName": "Script Documents",
+      "ColorIndex": 2
+    },
+    "2ec16d2e-2fcf-48a9-b65a-085a402072ec": {
+      "ProjectGuid": "2ec16d2e-2fcf-48a9-b65a-085a402072ec",
+      "DisplayName": "OIDC_Pkce_Server",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

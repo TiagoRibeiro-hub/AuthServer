@@ -1,0 +1,45 @@
+https://localhost:44380/Auth/LogIn
+	?ReturnUrl=
+		%2Fconnect%2Fauthorize%2Fcallback
+		%3Fclient_id%3D
+			client_id_mvc
+				%26redirect_uri%3D
+					https%253A%252F%252Flocalhost%253A44377%252Fsignin-oidc
+					
+				%26response_type%3D
+					code
+				%26scope%3D
+					openid%2520rc.scope%2520ApiOne%2520ApiTwoClient%2520offline_access
+					
+				%26response_mode%3Dform_post
+				
+				%26nonce%3D
+					637717997691323710.MTlhMGFhNTQtZjVmOC00ZTcxLWJjM2UtNDNhYjc3M2EwNzk0MmE5ODU4Y2QtNTEwZS00MGRiLThlNzMtNGYxMzk3M2M5MDAy
+				
+				%26state%3D
+					CfDJ8JPDXgOR5IdAkN2RPKvmg6KGMNMgz2lasaHZeztA7MUx-kv1Zh8MxLCO4eq6acngu_p67zEH7Il3u2WOK1eC_WYlgeUfkWv1sFn7j7ZPjyv1_ba0Yc5tPVa-ps7Rvoa-6faEEFC6T_0Gp62YfvtXreQ4_QnK81Rwe44Fin5OwO8vG4Iu49KdIPty43FiEh_39w97-E4s-1Arrn3TDw-nWe9TVyV1oG7AD2KB7MLTfZKlnIT_M4FZ4g9fdM4FYIPHXu0Y4rZA51udRtMtOvKOU7QSXMkKDwgrNoo7RLyJXjeClp-sGMSUKOiWNuTBWo2KwDcTaEyWDCWgpi9t3i7C3v82m4j4O2j9pfJlDXBk5a0bnLNBKk0hSC4LdatJ2-ZNWA
+		
+Pkce
+
+https://localhost:44380/Auth/LogIn?
+	ReturnUrl=
+		%2Fconnect%2Fauthorize%2Fcallback
+		%3Fclient_id%3D
+			client_id_mvc	
+				%26redirect_uri%3D
+					https%253A%252F%252Flocalhost%253A44377%252Fsignin-oidc	
+				%26response_type%3D
+					code	
+				%26scope%3D
+					openid%2520rc.scope%2520ApiOne%2520ApiTwoClient%2520offline_access	
+				
+				%26code_challenge%3D
+					hh_6stpSwXDWL_hGyUZa2DIYJz7wA61u6tcIvU2VExo
+				%26code_challenge_method%3D
+					S256
+				
+				%26response_mode%3Dform_post
+				%26nonce%3D637719797506457957.MGE4ODAwZTgtODMzNi00NTA3LWI4MjUtNTcyM2FkMDczNjE2OWUzOTNiZjgtODViNy00ZDFhLWI0ZjUtMmRjNGM0MGY1NzNk%26state%3DCfDJ8JPDXgOR5IdAkN2RPKvmg6KNByDP0BtFXO0dPLrBOj3MxaE7LJSon3chnZHzqifXqYC3rXV30BxvnJYkphA8UrPhVydFfpn68UhdfI93Tw6wMwwXSgtI9vGSaKcwf8gQTd3_EFD09zdw_bshjvKz8n_kAXMVK2wTTsTDLk7OR9vFacoSwNqXdxsm-lbQ228pFw6hC4mCZgO17bLABf4qzbVMn-XIneQ_Mmhtyn57QcGU40zQGQVZo3d-2Nu2ZvioE1d9CUrKbevu-KWO9RTzVx9Hjlv60dNXcU28RSXhd21hfsHwpMejQLPqWnhQeQauAJ-CIr7A3VD4KkgBgNda5a2wizRSKEfLMnr8CxslYsnRS242by1dYUTJ-a3skUhkCg	
+				%26x-client-SKU%3DID_NETSTANDARD2_0	
+				%26x-client-ver%3D6.7.1.0
+
