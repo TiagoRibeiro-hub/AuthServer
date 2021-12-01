@@ -1,8 +1,8 @@
 https://localhost:44380/Auth/LogIn
 	?ReturnUrl=
 		%2Fconnect%2Fauthorize%2Fcallback
-		%3Fclient_id%3D
-			client_id_mvc
+		%3Fclient_id%3D = client_id_mvc
+		
 				%26redirect_uri%3D
 					https%253A%252F%252Flocalhost%253A44377%252Fsignin-oidc
 					
@@ -18,14 +18,15 @@ https://localhost:44380/Auth/LogIn
 				
 				%26state%3D
 					CfDJ8JPDXgOR5IdAkN2RPKvmg6KGMNMgz2lasaHZeztA7MUx-kv1Zh8MxLCO4eq6acngu_p67zEH7Il3u2WOK1eC_WYlgeUfkWv1sFn7j7ZPjyv1_ba0Yc5tPVa-ps7Rvoa-6faEEFC6T_0Gp62YfvtXreQ4_QnK81Rwe44Fin5OwO8vG4Iu49KdIPty43FiEh_39w97-E4s-1Arrn3TDw-nWe9TVyV1oG7AD2KB7MLTfZKlnIT_M4FZ4g9fdM4FYIPHXu0Y4rZA51udRtMtOvKOU7QSXMkKDwgrNoo7RLyJXjeClp-sGMSUKOiWNuTBWo2KwDcTaEyWDCWgpi9t3i7C3v82m4j4O2j9pfJlDXBk5a0bnLNBKk0hSC4LdatJ2-ZNWA
-		
+	
+	
 Pkce
 
 https://localhost:44380/Auth/LogIn?
 	ReturnUrl=
 		%2Fconnect%2Fauthorize%2Fcallback
-		%3Fclient_id%3D
-			client_id_mvc	
+		%3Fclient_id%3D = client_id_mvc	
+		
 				%26redirect_uri%3D
 					https%253A%252F%252Flocalhost%253A44377%252Fsignin-oidc	
 				%26response_type%3D

@@ -64,7 +64,7 @@ namespace AuthenticationServer
 
             // Certificate example
             //var filePath = ConfigurationPath.Combine(_env.ContentRootPath, "is_cert.pfx"); does not found
-            //var certificate = new X509Certificate2("D:\\Projectos\\Projectos\\AuthServer\\IdentityServer4\\AuthenticationServer\\is_cert.pfx", "password");
+            //var certificate = new X509Certificate2("D:\\Projectos\\Projectos\\AuthServer\\IdentityServer4\\AuthenticationServer\\is_cert.pfx", "");
 
             services.AddIdentityServer()
                 .AddAspNetIdentity<IdentityUser>()
